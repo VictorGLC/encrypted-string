@@ -28,7 +28,7 @@ Aqui está uma explicação passo a passo de como o código funciona:
    - O código criptografa a string lendo os caracteres da matriz `organizatedString` coluna por coluna. Ele itera pelas colunas da matriz e adiciona cada caractere à `encryptedList` (lista criptografada). Além disso, ele adiciona um caractere de espaço após cada coluna lida, o que separa os caracteres criptografados.
 
 8. **Impressão da String Criptografada**:
-   - Por fim, o programa imprime a string criptografada iterando pela `encryptedList` e imprimindo cada caractere no console. A string criptografada é exibida como uma sequência contínua sem espaços.
+   - Por fim, o programa imprime a string criptografada iterando pela `encryptedList` e imprimindo cada caractere no console. A string criptografada é exibida como uma sequência contínua com espaços, o resultado é: taoa eum nmd hbi.
 
 ## Executando o Código
 Para executar este código:
