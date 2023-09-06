@@ -19,30 +19,30 @@ public class Main {
 		}
 		
 		// passing the string list for a 2d array
-        int indexK=0;
-        for(int i=0;i<organizatedString.length; i++) {
-            for(int j=0;j<organizatedString[i].length; j++) {
-            	if(indexK < treatedString.length()) {
-            		organizatedString[i][j] = stringsSeparatedList.get(indexK);
-            		indexK++;
-            	}
-            }
-        } 
+	        int indexK=0;
+	        for(int i=0;i<organizatedString.length; i++) {
+	            for(int j=0;j<organizatedString[i].length; j++) {
+	            	if(indexK < treatedString.length()) {
+	            		organizatedString[i][j] = stringsSeparatedList.get(indexK);
+	            		indexK++;
+	            	}
+	            }
+	        } 
         
-        // encrypting the string using list and 2d array, getting the 2d array columns
-        for(int i=0; i<organizatedString.length; i++) {
-            for(int j=0; j<organizatedString[i].length; j++) {
-            	if(organizatedString[j][i] != null) {
-            		encryptedList.add(organizatedString[j][i]); 
-            	}   
-            }
-            encryptedList.add(" ");
-        } 
+	        // encrypting the string using list and 2d array, getting the 2d array columns
+	        for(int i=0; i<organizatedString.length; i++) {
+	            for(int j=0; j<organizatedString[i].length; j++) {
+	            	if(organizatedString[j][i] != null) {
+	            		encryptedList.add(organizatedString[j][i]); 
+	            	}   
+	            }
+	            encryptedList.add(" ");
+	        } 
         
-        // printing the encrypted string
-        for(String encryptedResult : encryptedList) {
-        	System.out.print(encryptedResult);
-        }
+	        // printing the encrypted string
+	        for(String encryptedResult : encryptedList) {
+	        	System.out.print(encryptedResult);
+	        }
         
 	}
 }
